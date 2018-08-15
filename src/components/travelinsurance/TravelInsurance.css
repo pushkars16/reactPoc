@@ -1,0 +1,62 @@
+div{
+  height:400px;
+  width:900px;
+}
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+
+}
+
+h3{
+
+  margin-right: 30%;
+  font-weight: lighter;
+}
+
+ul{
+  padding: 0;
+  border-bottom: 5px solid red;
+
+}
+
+ul#menu li {
+  display:inline;
+  padding-right: 170px;
+  font-size: 15px;
+}
+
+ul li:nth-child(2){
+  border:1px solid blue;
+}
+
+.div2 {
+    width: 799px;
+    height: 100px;
+    padding: 50px;
+    margin-bottom: 70px;
+    border: 1px solid grey;
+    background-color: grey;
+    color : white;
+    text-align: center;
+}
+
+i.material-icons {
+  font-size: 16px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+button{
+  position: relative;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:40%;
+}

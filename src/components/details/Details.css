@@ -1,0 +1,80 @@
+.vl {
+    border-left: 6px solid red;
+    height: 30px;
+}
+
+span#details{
+  margin-left: 20px;
+  font-weight: 100;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+i {
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+div {
+  margin : 5px;
+ text-align: left;
+}
+
+ div.d{
+   line-height: 160%;
+   font-size: 20px;
+   margin-bottom: 50px;
+  }
+
+  .tiny{
+    font-weight: bold;
+    font-size: 11px;
+  }
+
+  .space{ word-spacing: 7px;}
+
+form{
+  line-height: 400%;
+}
+
+label{
+  padding-right: 40px;
+}
+
+input[type=submit]{
+  position: relative;
+  margin-top: 50px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 400px;
+}
+
+/* input[type=text]{
+  border : 0;
+} */
+
+input:disabled{
+  background-color: white;
+}
+
+div.container{
+
+  height: 400px;
+  width : 600px;
+}
+
+i.material-icons {
+  font-size: 16px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+span#editText {
+  font-size: 15px;
+}
